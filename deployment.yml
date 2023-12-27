@@ -17,3 +17,5 @@ spec:
           image: 860082039066.dkr.ecr.ap-south-1.amazonaws.com/test:fb04543acc4f7f88befa7934906d922a6eba340e
           ports:
             - containerPort: 3001
+      imagePullSecrets:
+        - name: aws-secret
