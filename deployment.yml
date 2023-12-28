@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: test
-          image: 860082039066.dkr.ecr.ap-south-1.amazonaws.com/test:fb04543acc4f7f88befa7934906d922a6eba340e
+          image: 860082039066.dkr.ecr.ap-south-1.amazonaws.com/test:5cff25cafb4d921884ee29ee35da03919530b681
           ports:
             - containerPort: 3001
