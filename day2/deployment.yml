@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: day2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: day2
+  template:
+    metadata:
+      labels:
+        app: day2
+    spec:
+      containers:
+        - name: test
+          image: 427735392661.dkr.ecr.ap-south-1.amazonaws.com/images:36e4018a9c3bf4fb2209d6220ab6f86e679becd8
+          ports:
+            - containerPort: 3002
