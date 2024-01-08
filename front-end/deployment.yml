@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: front-end
-          image: rabbitmq
+          image: nginx
           ports:
             - containerPort: 3000
