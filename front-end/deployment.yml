@@ -16,4 +16,4 @@ spec:
         - name: front-end
           image: nginx
           ports:
-            - containerPort: 3000
+            - containerPort: 80
